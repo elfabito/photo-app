@@ -174,7 +174,6 @@ GEM
       actionpack (>= 5.0)
       railties (>= 5.0)
     rexml (3.2.5)
-    ruby_http_client (3.5.5)
     rubyzip (2.3.2)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -190,8 +189,6 @@ GEM
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2)
-    sendgrid-ruby (6.6.2)
-      ruby_http_client (~> 3.4)
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -258,7 +255,6 @@ DEPENDENCIES
   rails_12factor
   sass-rails (>= 6)
   selenium-webdriver
-  sendgrid-ruby
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
