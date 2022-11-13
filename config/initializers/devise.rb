@@ -160,8 +160,8 @@ Devise.setup do |config|
   config.reconfirmable = true
 
   # Defines which key will be used when confirming an account
-   config.confirmation_keys = [:email]
-   config.mailer_sender = "elfabito@gmail.com"
+   # config.confirmation_keys = [:email]
+   config.mailer_sender = "photo-app@rails.com"
 
   # ==> Configuration for :rememberable
   # The time the user will be remembered without asking for credentials again.
